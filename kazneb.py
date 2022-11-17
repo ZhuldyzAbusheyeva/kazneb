@@ -3,13 +3,13 @@
 HELP="""
 Example:
 
-$ ./kazneb.py "http://kazneb.kz/bookView/view/?brId=1548122&lang=kk"
+$ ./kazneb.py "https://kazneb.kz/ru/bookView/view?brId=1561103&simple=true"
 
 All downloaded files will be saved into current directory.
 If you want to save files into different directory, you can 
 use '-o/--output' option:
 
-$ ./kazneb.py -o /tmp "http://kazneb.kz/bookView/view/?brId=1548122&lang=kk"
+$ ./kazneb.py -o /tmp "https://kazneb.kz/ru/bookView/view?brId=1561103&simple=true"
 
 """
 
